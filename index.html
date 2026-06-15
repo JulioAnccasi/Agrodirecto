@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroDirecto</title>
+    <link rel="stylesheet" href="public/assets/styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Oxygen+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- barra de navegacion -->
+    <header class="encabezado">
+        <nav class="navegacion">
+            <div class="nav-logo">
+                <img src="public/assets/images/logo.png" alt="Logo AgroDirecto">
+                <span>AgroDirecto</span>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#soporte">Soporte</a></li>
+            </ul>
+
+            <div class="nav-btn">
+                <a href="#registro" class="boton-registro">Registrarse</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- hero -->
+    <section class="hero" id="inicio">
+        <div class="hero-contenido">
+            <h1>Cosechas listas, rutas llenas:<br>
+                <span class="txt-verde">Conectando el campo</span><br>
+                con la eficiencia del transporte
+            </h1>
+            <p>Conectamos directamente a pequeños productores con mercados mayoristas y transportistas de manera simple y directa.</p>
+
+            <div class="hero-acciones">
+                <a href="#registro" class="boton-primario">Comenzar ahora <span class="arrow">&rarr;</span></a>
+                <a href="#servicios" class="boton-secundario">Ver servicios</a>
+            </div>
+
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <h2>1200+</h2>
+                    <p>Productores activos</p>
+                </div>
+                <div class="stat-item">
+                    <h2>340+</h2>
+                    <p>Transportistas</p>
+                </div>
+                <div class="stat-item">
+                    <h2>87%</h2>
+                    <p>Satisfacción de usuarios</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-imagen">
+            <img src="public/assets/images/logo.png" alt="Logo AgroDirecto">
+        </div>
+    </section>
+
+    <!-- descripcion -->
+    <section class="descripcion" id="servicios">
+        <div class="container">
+            <div class="descripcion-texto">
+                <span class="badge badge-verde">Quiénes somos</span>
+                <h2>Una plataforma hecha para el <span class="txt-verde">campo peruano</span></h2>
+                <p class="seccion-desc">
+                    Somos una empresa tecnológica peruana enfocada
+                    en brindar soluciones innovadoras para el sector agrícola.
+                </p>
+                <ul class="lista-check">
+                    <li><span class="check">&checkmark;</span> Conexión directa productor-mercado</li>
+                    <li><span class="check">&checkmark;</span> Transporte compartido y eficiente</li>
+                    <li><span class="check">&checkmark;</span> Ahorro en costos de flete</li>
+                    <li><span class="check">&checkmark;</span> Trato directo sin intermediarios</li>
+                </ul>
+            </div>
+
+            <div class="descripcion-imagen">
+                <img src="public/assets/images/agricultor.png" alt="Agricultor">
+            </div>
+        </div>
+    </section>
+
+    <!-- estadisticas / grafico -->
+    <section class="estadisticas">
+        <div class="container">
+            <div class="stat-izquierda">
+                <div class="grafico-circular">
+                    <svg viewBox="0 0 200 200" width="180" height="180">
+                        <circle cx="100" cy="100" r="80" fill="#eceef2"/>
+                        <path d="M100,100 L100,20 A80,80 0 1,1 27,140 Z" fill="#38761D"/>
+                        <text x="100" y="108" text-anchor="middle" font-size="28" font-weight="800" fill="#3f4645">87%</text>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="stat-derecha">
+                <p class="stat-texto-principal">
+                    El 87% de nuestros usuarios se sintieron cómodos
+                    usando Agrodirecto
+                </p>
+                <div class="stat-usuarios">
+                    <span class="icono-usuario">&#128100;+</span>
+                    <p>
+                        Trabajamos con más de <strong>1200 productores</strong><br>
+                        y más de <strong>340 transportistas</strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonios -->
+    <section class="testimonios">
+        <div class="carrusel">
+            <button class="flecha flecha-izq">&#9664;</button>
+            <div class="carrusel-fotos">
+                <img src="public/assets/images/agricultor1.png" alt="Agricultor 1" class="foto-lateral">
+                <div class="foto-central">
+                    <img src="public/assets/images/agricultor2.png" alt="Agricultor 2">
+                    <p class="testimonio-texto">
+                        "Antes de AgroDirecto, perdía
+                        casi la mitad de mi ganancia
+                        pagando un flete yo sola para mi
+                        cosecha de papa. Ahora, la app
+                        me avisa cuando un vecino tiene
+                        espacio en su camión y
+                        compartimos el gasto. ¡En mi
+                        último envío ahorré un 30% y el
+                        trato fue directo!"
+                    </p>
+                </div>
+                <img src="public/assets/images/agricultor3.png" alt="Agricultor 3" class="foto-lateral">
+            </div>
+            <button class="flecha flecha-der">&#9654;</button>
+        </div>
+    </section>
+
+    <!-- redes y contacto -->
+    <section class="redes-contacto" id="soporte">
+        <div class="container">
+            <div class="redes">
+                <h2>Nuestras redes</h2>
+                <div class="iconos-redes">
+                    <a href="#"><img src="public/assets/images/instagram.png" alt="Instagram"></a>
+                    <a href="#"><img src="public/assets/images/facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="public/assets/images/twitter.png" alt="Twitter"></a>
+                </div>
+            </div>
+
+            <div class="contacto-registro" id="registro">
+                <p>¿Quieres saber más?<br>
+                    Regístrate para mantenernos en
+                    contacto contigo.
+                </p>
+                <button class="boton-registrarse">REGISTRARSE</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- faq -->
+    <section class="faq">
+        <div class="faq-item">
+            <button class="faq-pregunta">¿Qué es Agrodirecto?</button>
+        </div>
+        <div class="faq-item">
+            <button class="faq-pregunta">¿Qué servicios ofrecemos?</button>
+        </div>
+        <div class="faq-item">
+            <button class="faq-pregunta">¿Cómo surgimos?</button>
+        </div>
+        <div class="faq-item">
+            <button class="faq-pregunta">¿Agrodirecto es seguro?</button>
+        </div>
+    </section>
+
+    <!-- pie de pagina -->
+    <footer class="pie-pagina">
+        <div class="container">
+            <div class="pie-logo">
+                <img src="public/assets/images/logo.png" alt="Logo AgroDirecto">
+            </div>
+            <nav class="pie-links">
+                <a href="#">Términos y condiciones</a>
+                <a href="#">Políticas de privacidad</a>
+            </nav>
+        </div>
+    </footer>
+
+</body>
+</html>
