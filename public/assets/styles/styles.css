@@ -28,6 +28,7 @@ body
 /* ===== NAVBAR ===== */
 .encabezado
 {
+    font-family: 'Poppins', Arial, sans-serif;
     width: 100%;
     background-color: #eceef2;
     border-bottom: 1px solid #dde0e5;
@@ -117,6 +118,7 @@ body
 /* ===== HERO ===== */
 .hero
 {
+    font-family: 'Poppins', Arial, sans-serif;
     max-width: 1200px;
     margin: 0 auto;
     padding: 60px 8%;
@@ -239,6 +241,7 @@ body
 /* ===== DESCRIPCION ===== */
 .descripcion
 {
+    font-family: 'Poppins', Arial, sans-serif;
     background-color: #eceef2;
     padding: 80px 0;
 }
@@ -323,6 +326,7 @@ body
 /* ===== ESTADISTICAS ===== */
 .estadisticas
 {
+    font-family: 'Poppins', Arial, sans-serif;
     background-color: #e4ece0;
     padding: 80px 0;
 }
@@ -386,6 +390,7 @@ body
 /* ===== TESTIMONIOS ===== */
 .testimonios
 {
+    font-family: 'Poppins', Arial, sans-serif;
     background-color: #eceef2;
     padding: 80px 4%;
 }
@@ -461,6 +466,7 @@ body
 /* ===== REDES Y CONTACTO ===== */
 .redes-contacto
 {
+    font-family: 'Poppins', Arial, sans-serif;
     background-color: #eceef2;
     padding: 80px 0;
 }
@@ -537,6 +543,7 @@ body
 /* ===== FAQ ===== */
 .faq
 {
+    font-family: 'Poppins', Arial, sans-serif;
     background-color: #eceef2;
     padding: 20px 8% 60px;
     display: flex;
@@ -555,7 +562,7 @@ body
     border-radius: 8px;
     font-size: 14px;
     font-weight: 600;
-    font-family: 'Poppins', Arial, sans-serif;
+    font-family: 'Oxygen Mono', monospace;
     text-align: left;
     cursor: pointer;
     transition: 0.3s;
@@ -569,6 +576,7 @@ body
 /* ===== FOOTER ===== */
 .pie-pagina
 {
+    font-family: 'Poppins', Arial, sans-serif;
     background-color: #783F04;
     padding: 40px 0;
 }
@@ -605,4 +613,105 @@ body
 {
     opacity: 1;
     color: #ffd766;
+}
+
+@media (max-width: 900px)
+{
+    .navegacion
+    {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        padding: 0 6%;
+        height: auto;
+    }
+
+    .nav-links
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 18px;
+    }
+
+    .hero
+    {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 6%;
+    }
+
+    .hero-imagen
+    {
+        order: -1;
+        width: 100%;
+    }
+
+    .descripcion .container,
+    .estadisticas .container,
+    .redes-contacto .container
+    {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .descripcion-imagen img,
+    .foto-central img
+    {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .hero-stats
+    {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .carrusel,
+    .carrusel-fotos
+    {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .foto-lateral,
+    .foto-central
+    {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .contacto-registro
+    {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contacto-registro p
+    {
+        font-size: 20px;
+    }
+
+    .pie-pagina .container
+    {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .pie-links
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .faq
+    {
+        width: 100%;
+        padding: 20px 6% 60px;
+    }
 }
