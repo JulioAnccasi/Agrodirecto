@@ -2,7 +2,7 @@ name: Deploy static content to Pages
 
 on:
   push:
-    branches: ["main"] #funciono en esta rama, asi que se le cambio de "feature/landingpage" a "main"
+    branches: ["main"] #traspaso de seguridad a esta rama para luego pasarlo a main
 
 permissions:
   contents: read
